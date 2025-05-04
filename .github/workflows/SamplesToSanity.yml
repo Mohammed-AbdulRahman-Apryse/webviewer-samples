@@ -5,7 +5,7 @@ on:
 
 jobs:
   create-doc:
-    runs-on: windows
+    runs-on: self-hosted
 
     steps:
     - name: Checkout Repository
