@@ -1,18 +1,16 @@
-const sanityClient = require('@sanity/client');
+import {createClient} from '@sanity/client'
 
-const client = sanityClient({
+const client = createClient({
   projectId: process.env.SANITY_PROJECT_ID,
   dataset: process.env.SANITY_DATASET,
-  apiVersion: '2023-04-29', // Latest API version
+  apiVersion: '2025-02-06', // Latest API version
   token: process.env.SANITY_API_TOKEN,
   useCdn: false
 });
 
-
 async function fetchDocuments() {
-  const query = `*[_type == "post"]`; // Replace "post" with your document type
-  const posts = await client.fetch(query);
-  console.log(posts);
+  const data = await client.fetch(`count(*)`)
+  console.log(`Number of documents: ${data}`);
 }
   
 fetchDocuments();
