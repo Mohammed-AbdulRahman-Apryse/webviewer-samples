@@ -9,7 +9,7 @@ const PRODUCT_NAME = 'product'
 const PRODUCT_TYPE = 'reference'
 const CODE_LANGUAGE = 'javascript'
 const CODE_LANGUAGE_TITLE = 'JavaScript'
-const CODE_BLOCK = 'This sample was created by GitHub Actions!\r\nReplace this with a code block of your sample.'
+const CODE_BLOCK_SUBTITLE = 'This sample was created by GitHub Actions!\r\nReplace this with a code block of your sample.'
 
 const client = createClient({
   projectId: 'e72qwn7x', //process.env.SANITY_PROJECT_ID,
