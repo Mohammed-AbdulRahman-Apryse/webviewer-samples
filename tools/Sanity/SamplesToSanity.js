@@ -101,4 +101,4 @@ async function SamplesToSanity(sampleName) {
     
 }
 
-SamplesToSanity('webviewer-react');
+SamplesToSanity('webviewer-salesforce');
