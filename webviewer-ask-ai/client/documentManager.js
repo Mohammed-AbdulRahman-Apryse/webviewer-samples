@@ -1,4 +1,4 @@
-// Document class to manage the loaded document-related properties and operations
+// Manage the loaded document-related properties and operations
 // NOTE: The loaded document contents is cached in this object.
 //       Document contents edit requires saving then re-loading.
 class DocumentManager {
@@ -44,7 +44,7 @@ class DocumentManager {
       this.completePromise &&
       this.pageCount > 0 &&
       this.text.length > 0;
-    }
+  }
 }
 
 export default DocumentManager;

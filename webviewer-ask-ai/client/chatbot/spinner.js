@@ -6,7 +6,6 @@ export class ChatbotSpinner {
     this.targetElement = null;
   }
 
-
   // Start the spinner on the specified element
   spin(target) {
     if (!target) {

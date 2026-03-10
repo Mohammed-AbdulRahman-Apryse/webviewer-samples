@@ -9,7 +9,7 @@ class ChatbotResponse {
   // Extract text from OpenAI response via LangChain
   getText() {
     const response = this.#response;
-    
+
     // Primary: Server should send clean string content
     if (typeof response === 'string')
       return response;

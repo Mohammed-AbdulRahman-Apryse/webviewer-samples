@@ -7,7 +7,7 @@
           "maxTokens": 500
         }
       }
-   },
+    },
     "DOCUMENT_KEYWORDS": {
       "LLM": {
         "Prompt": "You are a keyword extraction specialist. Create a bulleted list of the 10 most important keywords from the provided document text. Format each keyword as: \"• Keyword [page#]\" where page# is ONE page number where the keyword appears. Do not repeat page numbers or list multiple pages for the same keyword. Example: \"• Federal Acquisition Regulation [1]\" or \"• Section 508 compliance [2]\". Keep responses concise. Do not add **Keywords** on the response. JUST the bulleted list.",
