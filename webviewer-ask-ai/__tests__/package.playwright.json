@@ -1,9 +1,0 @@
-// Install Playwright and add test script
-{
-  "scripts": {
-    "test": "playwright test"
-  },
-  "devDependencies": {
-    "@playwright/test": "^1.43.1"
-  }
-}
